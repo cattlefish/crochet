@@ -1,0 +1,41 @@
+{
+    "name": "crochet-row-counter",
+    "version": "1.0.0",
+    "description": "crochet row counter",
+    "main": "index.js",
+    "author": "jessica",
+    "license": "MIT",
+    "scripts": {
+        "start": "webpack-dev-server -w --config webpack/webpack.config.js",
+        "build": "SET NODE_ENV=PRODUCTION && webpack --config webpack/webpack.config.js --progress --profile --colors"
+    },
+    "dependencies": {
+        "bootstrap": "4.0.0-beta",
+        "react": "^16.2.0",
+        "react-dom": "^16.2.0",
+        "react-router-dom": "^4.2.2",
+        "uikit": "^3.0.0-beta.40"
+    },
+    "devDependencies": {
+        "@types/react": "^16.0.40",
+        "@types/react-dom": "^16.0.4",
+        "@types/reactstrap": "^5.0.20",
+        "@types/react-router-dom": "^4.2.5",
+        "css-loader": "^0.28.10",
+        "extract-text-webpack-plugin": "^4.0.0-beta.0",
+        "file-loader": "^1.1.11",
+        "html-webpack-plugin": "^3.0.6",
+        "node-sass": "^4.7.2",
+        "raw-loader": "^0.5.1",
+        "sass-loader": "^6.0.7",
+        "style-loader": "^0.20.3",
+        "ts-loader": "^4.0.1",
+        "tslint": "^5.9.1",
+        "typescript": "^2.7.2",
+        "typings": "^2.1.1",
+        "url-loader": "^1.0.1",
+        "webpack": "^4.1.1",
+        "webpack-cli": "^2.0.12",
+        "webpack-dev-server": "^3.1.1"
+    }
+}
